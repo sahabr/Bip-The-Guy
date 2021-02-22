@@ -23,11 +23,11 @@
                                     <outletCollection property="gestureRecognizers" destination="l1E-gs-L8J" appends="YES" id="Dsw-ph-R88"/>
                                 </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94g-iY-L1t">
-                                <rect key="frame" x="185" y="818" width="44" height="30"/>
-                                <state key="normal" title="Punch"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94g-iY-L1t">
+                                <rect key="frame" x="194" y="769" width="26" height="128"/>
+                                <state key="normal" image="camera.on.rectangle" catalog="system"/>
                                 <connections>
-                                    <action selector="punchButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="23a-kc-tWt"/>
+                                    <action selector="photoOrCameraPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ap2-S2-7Xs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,6 +57,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera.on.rectangle" catalog="system" width="128" height="96"/>
         <image name="clown" width="1786" height="1779"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
